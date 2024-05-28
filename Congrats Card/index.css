@@ -1,0 +1,27 @@
+.main {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  height: 20vh;
+  width: 20vh;
+}
+.cont {
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.head {
+  font-family: 'Roboto';
+  colorhex: #0f172a;
+}
+p {
+  font-family: 'Roboto';
+  color: #1e293b;
+}
