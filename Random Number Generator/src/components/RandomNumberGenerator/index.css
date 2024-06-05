@@ -1,0 +1,63 @@
+
+.main-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 16px;
+  border: 1px solid #e4ebf3;
+  padding: 36px;
+  box-shadow: 0px 4px 16px 0px #7e858e29;
+}
+@media screen and (max-width: 767px) {
+  .head {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 30px;
+  }
+  .random-number {
+    font-size: 48px;
+  }
+}
+.desc {
+  text-align: center;
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.but {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  margin-top: 14px;
+  outline: none;
+  cursor: pointer;
+}
+.random-number {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+
